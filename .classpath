@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-dbcp2-2.7.0.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-pool2-2.8.0.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/java-mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/mysql-connector-java-8.0.12.jar"/>
+	<classpathentry kind="lib" path="Jar Files/java-mail-1.4.4.jar"/>
+	<classpathentry kind="output" path="build/web/WEB-INF/classes"/>
+</classpath>

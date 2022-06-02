@@ -1,0 +1,35 @@
+def drawConnect(field):
+    for row in range(11):
+        if row%2 == 0:
+            practicalRow = int(row/2)
+            for colunm in range(11):
+                if colunm%2 ==0:
+                    practicalColunm = int(colunm/2)
+                    if colunm != 10:
+                        print(field[practicalRow][practicalColunm],end="")
+                    else:
+                       print (field[practicalRow][practicalColunm])
+                else:
+                    print("|",end="")
+        else:
+           print("-----------")
+currentFeild = [[" "," "," "," "," "," "],[" "," "," ", " "," "," "],[" "," "," "," "," "," "],[" "," "," "," "," "," "],[" "," "," "," "," "," "],[" "," "," "," "," "," "]]
+drawConnect(currentFeild)
+
+player = 1;
+while (True):
+
+    print ("Player",player)
+
+    moveRow = int(input("Please enter row"))
+    moveColunm = int(input("Please enter colun"))
+
+    if player == 1:
+        currentFeild[moveRow][moveColunm] = "X"
+        player = 2
+    else:
+        currentFeild[moveRow][moveColunm] = "O"
+        player = 1;
+
+    drawConnect(currentFeild)
+
